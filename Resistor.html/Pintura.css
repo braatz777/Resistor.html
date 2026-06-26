@@ -31,3 +31,6 @@ button{
     border-radius: 15px;       /* Cantos arredondados */
     padding: 20px;             /* Espaço interno */
 }
+p{
+    margin-left: 240px; /* Centraliza o parágrafo horizontalmente */
+}
