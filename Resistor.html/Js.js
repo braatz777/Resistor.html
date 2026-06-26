@@ -1,3 +1,13 @@
+let op = Number(document.getElementById("1 or 2"))
+if(op == 1){
+    window.location.href = "CalculoDeCores.html"
+}
+if(op == 2){
+    window.location.href = "DivisãoDeTensão.html"
+}
+else{
+    alert("Informe a Operação!")
+}
 function calcular(){
     let vin = Number(document.getElementById("Vin").value)
     let vout = Number(document.getElementById("Vout").value)
@@ -17,4 +27,7 @@ function calcular(){
         res = "R2 = " + R1 / ((vin / vout) - 1)
     }
     document.getElementById("res").innerHTML = "Resultado: " + res
+}
+function cores(){
+
 }

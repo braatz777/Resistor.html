@@ -25,7 +25,6 @@ button{
     margin-left: 250px; /* Centraliza o botão horizontalmente */
 }
 .container {
-    box-shadow: 10px;
     background-color: black; /* Cor de fundo */
     width: 600px;              /* Largura */
     border: 3px solid black;   /* Borda branca de 3px */
@@ -34,4 +33,13 @@ button{
 }
 p{
     margin-left: 240px; /* Centraliza o parágrafo horizontalmente */
+}
+h2{
+    color: black; /* Cor do texto */
+    font-size: 70px; /* Tamanho da fonte */
+    text-align: center; /* Centraliza o texto */
+    display: flex; /* Define o elemento como um contêiner flexível */
+    flex-direction: column; /* Define a direção do conteúdo como coluna */
+    justify-content: center; /* Centraliza o texto verticalmente */
+    align-items: center; /* Centraliza o texto horizontalmente */
 }
