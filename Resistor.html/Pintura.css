@@ -1,17 +1,33 @@
 body{
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
+    background-color: black; /* Cor de fundo */
+    display: flex; /* Define o elemento como um contêiner flexível */
+    flex-direction: column; /* Define a direção do conteúdo como coluna */
+    justify-content: center; /* Centraliza o conteúdo verticalmente */
+    align-items: center; /* Centraliza o conteúdo horizontalmente */
 }
 h1{
-    color: black;
-    font-size: 70px;
+    color: black; /* Cor do texto */
+    font-size: 70px; /* Tamanho da fonte */
+    text-align: center; /* Centraliza o texto */
+    display: flex; /* Define o elemento como um contêiner flexível */
+    flex-direction: column; /* Define a direção do conteúdo como coluna */
+    justify-content: center; /* Centraliza o texto verticalmente */
+    align-items: center; /* Centraliza o texto horizontalmente */
 }
 input{
-    width: 200px;
-    padding: 7px;
-    margin: 5px;
+    width: 200px; /* Largura do input */
+    padding: 7px; /* Espaço interno do input */
+    border: 1px solid #ccc; /* Borda do input */
+    margin: 5px; /* Espaço entre os inputs */
+    margin-left: 190px; /* Centraliza o input horizontalmente */
+}
+button{
+    margin-left: 250px; /* Centraliza o botão horizontalmente */
+}
+.container {
+    background-color: lightgray; /* Cor de fundo */
+    width: 600px;              /* Largura */
+    border: 3px solid black;   /* Borda branca de 3px */
+    border-radius: 15px;       /* Cantos arredondados */
+    padding: 20px;             /* Espaço interno */
 }
