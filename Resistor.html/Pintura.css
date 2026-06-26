@@ -1,12 +1,12 @@
 body{
-    background-color: black; /* Cor de fundo */
+    background-color: white; /* Cor de fundo */
     display: flex; /* Define o elemento como um contêiner flexível */
     flex-direction: column; /* Define a direção do conteúdo como coluna */
     justify-content: center; /* Centraliza o conteúdo verticalmente */
     align-items: center; /* Centraliza o conteúdo horizontalmente */
 }
 h1{
-    color: black; /* Cor do texto */
+    color: white; /* Cor do texto */
     font-size: 70px; /* Tamanho da fonte */
     text-align: center; /* Centraliza o texto */
     display: flex; /* Define o elemento como um contêiner flexível */
@@ -25,7 +25,8 @@ button{
     margin-left: 250px; /* Centraliza o botão horizontalmente */
 }
 .container {
-    background-color: lightgray; /* Cor de fundo */
+    box-shadow: 10px;
+    background-color: black; /* Cor de fundo */
     width: 600px;              /* Largura */
     border: 3px solid black;   /* Borda branca de 3px */
     border-radius: 15px;       /* Cantos arredondados */
